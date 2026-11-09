@@ -40,7 +40,7 @@ def ReLu(array, cutoff = 0):
       newarray.append(cutoff)
     else: 
       newarray.append(i)
-  return newarray
+  return numpy.array(newarray)
 
 # -----------------------------------------------
 
@@ -57,6 +57,6 @@ def ReLu(array, cutoff = 0):
 
 def neural_net_layer(a, b): 
   result = a @ b
-  return result
+  return ReLu(result)
 
 # ------------------------------------------
