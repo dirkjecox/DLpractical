@@ -1,4 +1,4 @@
-import numpy
+# import numpy
 
 # Follow the tasks below to practice basic Python concepts.
 # Write your code in between the dashed lines.
