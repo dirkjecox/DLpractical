@@ -1,4 +1,4 @@
-# import numpy
+import numpy
 
 # Follow the tasks below to practice basic Python concepts.
 # Write your code in between the dashed lines.
@@ -60,6 +60,3 @@ def neural_net_layer(a, b):
   return result
 
 # ------------------------------------------
-
-python -m pip install numpy pytest
-python -m pytest tests/grade_task1.py tests/grade_task2.py tests/grade_task3.py
